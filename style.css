@@ -1,0 +1,26 @@
+/* Section titles */
+.section-title {
+  @apply text-3xl font-bold mb-8 text-gray-900;
+}
+
+/* Skill boxes */
+.skill-box {
+  @apply py-4 bg-white shadow rounded-lg text-gray-800 font-medium;
+  transition: 0.3s ease;
+}
+
+.skill-box:hover {
+  @apply bg-gray-200;
+  transform: translateY(-3px);
+}
+
+/* Project card */
+.project-card {
+  display: block;
+  transition: 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  opacity: 0.9;
+}

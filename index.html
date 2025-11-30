@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Baktybay — CV</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body class="bg-gray-50 text-gray-800">
+    <!-- HERO -->
+    <section class="min-h-[60vh] flex items-center justify-center px-6">
+      <div class="max-w-3xl text-center">
+        <img
+          src="./img/my_photo.jpg"
+          class="w-40 h-40 mx-auto rounded-full shadow-lg mb-6 object-cover"
+          alt="Profile"
+        />
+
+        <h1 class="text-5xl font-bold text-gray-900">Baktybay Chekishev</h1>
+        <p class="text-xl text-gray-600 mt-3">Frontend Developer</p>
+
+        <div class="mt-6 flex justify-center gap-4">
+          <a
+            href="#projects"
+            class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition"
+          >
+            My Projects
+          </a>
+
+          <a
+            href="#contact"
+            class="px-6 py-3 border border-gray-400 rounded-lg hover:bg-gray-200 transition"
+          >
+            Contact Me
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="py-20 bg-white">
+      <div class="max-w-4xl mx-auto px-4">
+        <h2 class="section-title">About Me</h2>
+        <p class="text-lg text-gray-700 leading-8">
+          Passionate frontend developer focused on modern, responsive, and clean
+          UI development. Experienced with Tailwind, Bootstrap, and high-quality
+          layouts.
+        </p>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="py-20 bg-gray-100">
+      <div class="max-w-4xl mx-auto px-4">
+        <h2
+          class="text-4xl font-bold text-gray-900 mb-10 border-b-4 border-blue-500 inline-block pb-2"
+        >
+          Skills
+        </h2>
+
+        <div class="flex flex-wrap justify-center gap-6">
+          <div class="skill-box w-40">HTML</div>
+          <div class="skill-box w-40">CSS</div>
+          <div class="skill-box w-40">Tailwind CSS</div>
+          <div class="skill-box w-40">Bootstrap</div>
+          <div class="skill-box w-40">Git & GitHub</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="py-20 bg-white">
+      <div class="max-w-6xl mx-auto px-6">
+        <h2 class="text-3xl font-bold mb-10 text-gray-900">Projects</h2>
+
+        <div class="grid md:grid-cols-3 gap-10">
+          <!-- Project 1: TOO Klyuchevoe -->
+          <a
+            href="https://kluchevoe.kz"
+            target="_blank"
+            class="project-card block bg-white rounded-lg shadow-xl overflow-hidden hover:shadow-2xl"
+          >
+            <img
+              src="./img/photo_2025-11-30_20-13-05.jpg"
+              alt="TOO Klyuchevoe"
+              class="w-full h-52 object-cover"
+            />
+            <div class="p-5">
+              <h3 class="text-xl font-semibold text-gray-900 mt-2">
+                TOO Kluchevoe
+              </h3>
+              <p class="text-gray-600 mt-1 text-sm">
+                Agricultural company website showcasing products and services.
+              </p>
+            </div>
+          </a>
+
+          <!-- Project 2: Fastfood -->
+          <a
+            href="https://syron11.github.io/fastfood-burger/"
+            target="_blank"
+            class="project-card block bg-white rounded-lg shadow-xl overflow-hidden hover:shadow-2xl"
+          >
+            <img
+              src="./img/fast-food_landing.jpg"
+              alt="Fastfood Site"
+              class="w-full h-52 object-cover"
+            />
+            <div class="p-5">
+              <h3 class="text-xl font-semibold text-gray-900 mt-2">Fastfood</h3>
+              <p class="text-gray-600 mt-1 text-sm">
+                Landing page for a fast-food chain with menu and promotions.
+              </p>
+            </div>
+          </a>
+
+          <!-- Project 3: Gymshark Style -->
+          <a
+            href="https://syron11.github.io/mentory-hw2/"
+            target="_blank"
+            class="project-card block bg-white rounded-lg shadow-xl overflow-hidden hover:shadow-2xl"
+          >
+            <img
+              src="./img/gym_shark.jpg"
+              alt="Gymshark Style"
+              class="w-full h-52 object-cover"
+            />
+            <div class="p-5">
+              <h3 class="text-xl font-semibold text-gray-900 mt-2">
+                Gymshark Style
+              </h3>
+              <p class="text-gray-600 mt-1 text-sm">
+                Landing page for a sports brand with modern design.
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="py-20 bg-gray-100">
+      <div class="max-w-4xl mx-auto px-4 text-center">
+        <h2
+          class="text-4xl font-bold text-gray-900 mb-10 border-b-4 border-blue-500 inline-block pb-2"
+        >
+          Contact
+        </h2>
+
+        <div class="flex justify-center gap-10">
+          <!-- GitHub -->
+          <a
+            href="https://github.com/Syron11"
+            target="_blank"
+            class="w-14 h-14"
+          >
+            <img
+              src="./img/icons/github.png"
+              alt="GitHub"
+              class="w-full h-full object-cover hover:scale-110 transition-transform"
+            />
+          </a>
+
+          <!-- Instagram -->
+          <a
+            href="https://www.instagram.com/baktybay81"
+            target="_blank"
+            class="w-14 h-14"
+          >
+            <img
+              src="./img/icons/insta.png"
+              alt="Instagram"
+              class="w-full h-full object-cover hover:scale-110 transition-transform"
+            />
+          </a>
+
+          <!-- Email -->
+          <a href="mailto:baktybaiaidaruli@gmail.com" class="w-14 h-14">
+            <img
+              src="./img/icons/mail.png"
+              alt="Email"
+              class="w-full h-full object-cover hover:scale-110 transition-transform"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-6 text-center text-gray-600">
+      © 2025 Baktybay. All rights reserved.
+    </footer>
+  </body>
+</html>
