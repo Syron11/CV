@@ -303,8 +303,8 @@ section {
   border: 2px solid var(--main-color);
   border-radius: 3rem;
   padding: 2rem;
-  width: 400px; 
-  height: 500px; 
+  width: 400px;
+  height: 500px;
   overflow: hidden;
   cursor: pointer;
   box-shadow: 0 0 5px var(--main-color);
@@ -336,18 +336,16 @@ section {
 }
 
 .project-card .btn {
-  margin-top: auto; 
+  margin-top: auto;
 }
-
 
 .skills-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 3rem 10rem; 
+  gap: 3rem 10rem;
   margin-top: 2rem;
   justify-content: center;
 }
-
 
 .skill-box {
   background-color: #1a1a1a;
@@ -359,12 +357,10 @@ section {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-
 .skill-box:hover {
   transform: translateY(-10px) scale(1.05);
   box-shadow: 0 15px 30px rgba(12, 108, 234, 0.5);
 }
-
 
 .skill-logo i,
 .skill-logo img {
@@ -375,14 +371,12 @@ section {
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
-
 .skill-box:hover .skill-logo i,
 .skill-box:hover .skill-logo img,
 .skill-box:hover .skill-logo span {
   transform: scale(1.2);
   color: rgb(70, 160, 255);
 }
-
 
 .skill-bar {
   background-color: #333;
@@ -391,10 +385,9 @@ section {
   overflow: hidden;
 }
 
-
 .skill-fill {
   height: 100%;
-  width: 0; 
+  width: 0;
   background: linear-gradient(90deg, rgb(12, 108, 234), rgb(70, 160, 255));
   border-radius: 8px;
   transition: width 1.5s ease-in-out;
@@ -489,13 +482,58 @@ section {
 
   .service-box {
     flex: 1 1 45%;
-    max-width: 300px; 
+    max-width: 300px;
   }
 
+  .service-box:nth-child(3) {
+    flex-basis: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .home {
+    flex-direction: column-reverse;
+    gap: 3rem;
+  }
+
+  .home-content,
+  .about-content {
+    text-align: center;
+    align-items: center;
+  }
+
+  .home-img img,
+  .about-img img {
+    width: 90%;
+  }
+
+  .projects-box {
+    gap: 1.5rem;
+  }
+
+  .project-card {
+    width: 90%;
+  }
+
+  .services-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .service-box {
+    flex: 1 1 45%;
+    max-width: 300px;
+  }
 
   .service-box:nth-child(3) {
-    flex-basis: 100%; 
-    margin: 0 auto; 
+    flex-basis: 100%;
+    margin: 0 auto;
+  }
+
+  section {
+    padding: 5rem 3%;
   }
 }
 
